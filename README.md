@@ -1,7 +1,7 @@
 # Documentação Compiladores I - Equipe II
 
 <p align="center">
-  <img src="/docs/view/img/logo.png" height='300px' style={{ display: 'block', margin: 'auto', marginTop: '100px' }} />
+  <img src="docs/view/img/logo.png" height="300px" style="display: block; margin: auto; margin-top: 100px;" />
 </p>
 
 # Sobre
