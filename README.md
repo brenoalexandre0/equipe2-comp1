@@ -1,7 +1,7 @@
 # Documentação Compiladores I - Equipe II
 
 <p align="center">
-  <img src="https://github.com/brenoalexandre0/equipe2-comp1/blob/main/docs/view/img/logo.png" height="300px"/>
+  <img src="./docs/view/img/logo.png" height='300px' style={{ display: 'block', margin: 'auto', marginTop: '100px' }} />
 </p>
 
 # Sobre
