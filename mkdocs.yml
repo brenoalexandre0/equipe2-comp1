@@ -1,0 +1,70 @@
+repo_url: https://github.com/brenoalexandre0/equipe2-comp1.git
+repo_name: Compiladores 1
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - md_in_html
+  - footnotes
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+site_name: Documentação Celular Seguro
+
+nav:
+  #- Landing Page: "landing.html"
+  - Apresentação: index.md
+
+theme:
+  name: material
+  features:
+    - content.code.annotate
+    - content.tabs.link
+    - header.autohide
+    - navigation.expand
+    - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+
+  palette:
+    # Paleta para modo claro
+    - scheme: default
+      primary: white
+      accent: light blue
+      toggle:
+        icon: material/weather-night
+        name: Mudar para modo escuro
+
+    # Paleta para modo escuro
+    - scheme: slate
+      primary: black
+      accent: light blue
+      toggle:
+        icon: material/weather-sunny
+        name: Mudar para modo claro
+      
+      favicon: assets/img/bilheteria.png
+      logo: assets/img/bilheteria.png    
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+extra_css:
+  - stylesheets/styles.css
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css
+
+styles_css:
+  - view/css/styles.css
